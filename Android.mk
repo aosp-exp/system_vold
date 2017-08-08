@@ -56,7 +56,6 @@ common_libraries := \
 	libdiskconfig \
 	liblogwrap \
 	libf2fs_sparseblock \
-	libcrypto_utils \
 	libselinux \
 	libutils
 
@@ -77,6 +76,7 @@ common_static_libraries := \
 	libfec \
 	libfec_rs \
 	libext4_utils_static \
+	libmincrypt \
 	libsparse_static \
 	libsquashfs_utils \
 	libscrypt_static \
